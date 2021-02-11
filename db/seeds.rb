@@ -29,6 +29,14 @@ kickboxing = Activity.create(
     key: 1234568,
     activity_type: "recreational"
 )
+video_watching = Activity.create(
+    name: "video watching", 
+    accessibility: 2,
+    participants: 1,
+    price: 0.0,
+    key: 1234569,
+    activity_type: "recreational"
+)
 
 favorite1 = Favorite.create(user: kat, activity: climbing)
 favorite2 = Favorite.create(user: raz, activity: kickboxing)
